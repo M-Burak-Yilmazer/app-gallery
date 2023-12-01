@@ -9,11 +9,11 @@ body {
   background-color: #ffb4a2;
   font-family: "Oswald", sans-serif;
 }
-header{
-    text-align:center;
-    background-color: #8ecae6;
-  
-    padding: 1rem;
+header {
+  text-align: center;
+  background-color: #8ecae6;
+
+  padding: 1rem;
 }
 
 .image-card {

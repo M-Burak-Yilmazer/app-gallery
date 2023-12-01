@@ -1,10 +1,10 @@
 import React from "react";
-import data from "../data/data"
+import data from "../data/data";
 
-const Collapse = (props) => { 
-    console.log(props)
+const Collapse = (props) => {
+  console.log(props);
   return (
-    <div style={{width:"250px"}} className="">
+    <div style={{ width: "250px" }} className="">
       <a
         className="btn btn-success  d-block"
         data-bs-toggle="collapse"
@@ -12,7 +12,6 @@ const Collapse = (props) => {
         role="button"
         aria-expanded="false"
         aria-controls={props.href}
-
       >
         {props.name}
       </a>
