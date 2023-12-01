@@ -1,9 +1,13 @@
 import Card from "./components/Card";
+import "./App.css"
 
 function App() {
   return (
     <div>
-      <div className="card-group w-100">
+      <header className=" text-white">
+        <h1>IMAGE GALLERY</h1>
+      </header>
+      <div className=" mt-2 card-group w-100">
         <div
           style={{
             display: "flex",
